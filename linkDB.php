@@ -1,9 +1,9 @@
 <?php 
 //connect mysql to phpmyadmin database
 $hostName = 'localhost';
-$user = 'root';
+$user = 'loginData';
 $pass = '';
-$dbName = 'dblogin';
+$dbName = 'first';
 $linkDB = mysqli_connect($hostName, $user, $pass, $dbName);
 
 if (mysqli_connect_error()) {
